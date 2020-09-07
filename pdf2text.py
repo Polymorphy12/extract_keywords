@@ -4,7 +4,7 @@ import os
 import shutil
 
 '''
-
+샘플 주석을 작성하겠습니다.
 '''
 dirPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/papers/"
 outputPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/full_text/"
