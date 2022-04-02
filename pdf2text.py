@@ -6,10 +6,10 @@ import shutil
 '''
 주석을 다시 만들었습니다.
 '''
-dirPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/papers/"
-outputPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/full_text/"
-pdfInPath = os.listdir("C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/papers")
-processedFileGoesTo = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/papers_processed/"
+dirPath = "./papers/"
+outputPath = "./full_text/"
+pdfInPath = os.listdir("./papers")
+processedFileGoesTo = "./papers_processed/"
 
 for pdfFile in pdfInPath:
     print(pdfFile)
