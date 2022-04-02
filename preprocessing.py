@@ -5,7 +5,7 @@ from nltk.stem import PorterStemmer
 
 # Data Preprocessing
 def preprocessing(text):
-    outputPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/preprocessed/"
+    outputPath = "./preprocessed/"
 
     fileOut = open(outputPath + '1-s2.0-S1877050915036182-main' + '.csv', 'w', encoding='utf-8')
     
@@ -84,7 +84,7 @@ print(preprocessed)
 
 preprocessed.plot(100, cumulative=False)
 
-##outputPath = "C:/Users/ty79450/Desktop/2019Dev/2019_toy_projects/extract_keywords_from_paper/preprocessed/"
+##outputPath = "./preprocessed/"
 ##
 ##
 ##fileOut = open(outputPath + 'rafiki' + '.csv', 'w', encoding='utf-8')
